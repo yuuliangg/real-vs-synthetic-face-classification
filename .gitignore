@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local datasets are intentionally excluded from the public repository
+data/RealFace/
+data/SynFace/
+data/test_new/
+
+# Generated artifacts
+*.joblib
+*.pkl
